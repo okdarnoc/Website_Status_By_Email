@@ -19,15 +19,15 @@ When the user runs the website status checker, the program will check the status
 
 If all websites are up and running, the user will receive an email like this:
 
-SUCCESS: http://www.example.com is up and running!
-SUCCESS: https://www.example.org is up and running!
-SUCCESS: https://www.example.net is up and running!
+-SUCCESS: http://www.example.com is up and running!
+-SUCCESS: https://www.example.org is up and running!
+-SUCCESS: https://www.example.net is up and running!
 
 If any of the websites are down, the user will receive an email like this:
 
-SUCCESS: http://www.example.com is up and running!
-WARNING: https://www.example.org returned a status code of 404
-SUCCESS: https://www.example.net is up and running!
+-SUCCESS: http://www.example.com is up and running!
+-WARNING: https://www.example.org returned a status code of 404
+-SUCCESS: https://www.example.net is up and running!
 
 
 ## Installation
