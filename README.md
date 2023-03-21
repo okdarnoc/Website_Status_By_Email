@@ -29,6 +29,10 @@ If any of the websites are down, the user will receive an email like this:
 -WARNING: https://www.example.org returned a status code of 404
 -SUCCESS: https://www.example.net is up and running!
 
+## Email Requirement
+To send emails, the program uses the Gmail SMTP server. If you are using Gmail, you may need to allow "less secure apps" or create an app password if you have 2-factor authentication enabled. You can find instructions for enabling less secure apps or creating an app password in the Gmail Help Center.
+
+If you are using a different email provider, you will need to modify the server parameter in the script to use the SMTP server for your provider. You may also need to modify the port number and security protocol depending on your provider's settings.
 
 ## Installation
 The program is written in Python and requires the following packages:
